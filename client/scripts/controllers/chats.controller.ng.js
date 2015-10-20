@@ -3,15 +3,19 @@ angular
   .controller('ChatsCtrl', ChatsCtrl);
 
 function ChatsCtrl ($scope) {
-   console.log("Boop")
+   console.log("Boop");
+
+   $scope.remove = function(chat) {
+    $scope.chats.splice($scope.chats.indexOf(chat), 1);
+   }
 
    $scope.chats = [
      {
        _id: 0,
-       name: 'Snoop Dogg',
-       picture: 'https://randomuser.me/api/portraits/thumb/men/1.jpg',
+       name: 'Snoop Lion',
+       picture: 'http://do512blog.com/wp-content/uploads/2014/03/Snoop-Lion1.jpg',
        lastMessage: {
-         text: 'You on your way?',
+         text: 'You wanna smoke a blunt?',
          timestamp: moment().subtract(1, 'hours').toDate()
        }
      },
@@ -45,7 +49,7 @@ function ChatsCtrl ($scope) {
      {
        _id: 4,
        name: 'Ray Edwards',
-       picture: 'https://randomuser.me/api/portraits/thumb/men/2.jpg',
+       picture: 'http://vignette4.wikia.nocookie.net/ronaldmcdonald/images/0/0f/Imgres.jpeg/revision/latest?cb=20130724060217',
        lastMessage: {
          text: 'This is wicked good ice cream.',
          timestamp: moment().subtract(2, 'weeks').toDate()
