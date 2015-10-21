@@ -20,7 +20,7 @@ Meteor.startup(function () {
         timestamp: moment().subtract(4, 'days').toDate()
       },
       {
-        text: 'This is wicked good ice cream.',
+        text: 'I need to diversify my portfo',
         timestamp: moment().subtract(2, 'weeks').toDate()
       }
     ];
