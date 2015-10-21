@@ -6,6 +6,7 @@ angular
 
 // Bootsrapping AngularJS
 
+//If Meteor is on a mobile device
 if (Meteor.isCordova) {
   angular.element(document).on('deviceready', onReady);
 }
