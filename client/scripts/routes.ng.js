@@ -10,14 +10,14 @@ function config($stateProvider, $urlRouterProvider) {
       templateUrl: 'client/templates/tabs.ng.html'
     })
     .state('tab.chats', {
-        url: '/chats',
-        views: {
-          'tab-chats': {
-            templateUrl: 'client/templates/chats.ng.html',
-            controller: 'ChatsCtrl'
-          }
+      url: '/chats',
+      views: {
+        'tab-chats': {
+          templateUrl: 'client/templates/chats.ng.html',
+          controller: 'ChatsCtrl'
         }
-      });
+      }
+    });
 
   $urlRouterProvider.otherwise('tab/chats');
 }
