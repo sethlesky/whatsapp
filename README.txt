@@ -18,3 +18,7 @@ $ meteor add driftyco:ionic
 meteor add momentjs:moment
 
 meteor add fourseven:scss
+
+
+
+Currently at step: 3.11
