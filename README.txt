@@ -16,9 +16,12 @@ $ meteor add driftyco:ionic
 
 -----------
 meteor add momentjs:moment
-
 meteor add fourseven:scss
+meteor add jasonaibrahim:angular-moment
 
+
+Learn you a Scope
+http://www.undefine dnull.com/2014/02/11/mastering-the-scope-of-a-directive-in-angularjs/
 
 
 Currently at step: 3.11
